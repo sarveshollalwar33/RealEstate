@@ -1,0 +1,26 @@
+ECHO is on.
+
+# Ignore target (compiled files)
+target/
+*.jar
+*.war
+*.ear
+
+# Ignore IDE settings
+.idea/
+.vscode/
+*.iml
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore environment files
+.env
+
+.metadata
+
